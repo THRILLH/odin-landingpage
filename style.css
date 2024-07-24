@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    background-color: grey;
+}
+
 .hero,.header,.footer {
     background-color: #1F2937;
 }
@@ -37,7 +41,11 @@ a {
 .hero-container {
     display: flex;
     margin: 100px 16%;
+}
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-main {
@@ -53,7 +61,7 @@ a {
 }
 
 button {
-    color: #3882F6;
+    background-color: #3882F6;
 }
 
 .call-action {
