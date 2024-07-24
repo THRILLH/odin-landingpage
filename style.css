@@ -30,6 +30,16 @@ a {
     margin-top: 16px;
 }
 
+.hero {
+    display: flex;
+}
+
+.hero-container {
+    display: flex;
+    margin: 100px 16%;
+
+}
+
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
