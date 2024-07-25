@@ -11,6 +11,7 @@ a {
 
 img {
     background-color: grey;
+    flex: 1;
 }
 
 .hero,.header,.footer {
@@ -41,11 +42,13 @@ img {
 .hero-container {
     display: flex;
     margin: 100px 16%;
+    justify-content: stretch;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .hero-main {
