@@ -70,9 +70,12 @@ button {
     border-radius: 8px;
     cursor: pointer;
     padding: 8px 30px;
-    align-self: flex-start;
     font-weight: bold;
     font-size: 18px;
+}
+
+.hero-button {
+    align-self: flex-start;
     margin-top: 10px;
 }
 
@@ -113,10 +116,6 @@ button {
     text-align: center;
 }
 
-.call-action {
-    background-color: #3882F6;
-}
-
 .info-header {
     color: #1F2937;
     font-size: 36px;
@@ -138,8 +137,37 @@ button {
 
 .quote-attribute {
     margin-right: 25%;
+    margin-bottom: 100px;
     text-align: end;
     color: #1F2937;
     font-size: 24px;
     font-weight: 900;
+
+}
+
+.call-box {
+    background-color: #3882F6;
+    margin: 100px 14%;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.call-text {
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.call-button {
+    margin-right: 120px;
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px;
 }
