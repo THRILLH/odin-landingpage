@@ -132,4 +132,14 @@ button {
     font-size: 36px;
     /* Style reference says "light italic" */
     font-style: italic;
+    margin: 100px 25%;
+    margin-bottom: 0;
+}
+
+.quote-attribute {
+    margin-right: 25%;
+    text-align: end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
 }
